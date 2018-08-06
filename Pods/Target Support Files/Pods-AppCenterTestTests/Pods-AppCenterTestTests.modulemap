@@ -1,0 +1,6 @@
+framework module Pods_AppCenterTestTests {
+  umbrella header "Pods-AppCenterTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
