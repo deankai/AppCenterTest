@@ -16,12 +16,23 @@ import AppCenterCrashes
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         MSAppCenter.start("ccca77e8-1dce-4959-acac-2b79a7d39795", withServices:[ MSAnalytics.self, MSCrashes.self ])
+        getBList()
         return true
+    }
+    
+    func getBList() {
+        if let path = Bundle.main.path(forResource: "BList", ofType: "plist"),
+            let bList = NSDictionary(contentsOfFile: path){
+            
+            let value = bList["BCode"]
+            print("theValueIS:\(String(describing: value))")
+        }
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

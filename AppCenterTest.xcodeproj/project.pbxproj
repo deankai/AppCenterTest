@@ -14,6 +14,7 @@
 		05B0D4E22117DE9E005C40AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B0D4E02117DE9E005C40AD /* LaunchScreen.storyboard */; };
 		05B0D4ED2117DE9F005C40AD /* AppCenterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0D4EC2117DE9F005C40AD /* AppCenterTestTests.swift */; };
 		05B0D4F82117DE9F005C40AD /* AppCenterTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0D4F72117DE9F005C40AD /* AppCenterTestUITests.swift */; };
+		05B0D50621182C91005C40AD /* BList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05B0D50521182C91005C40AD /* BList.plist */; };
 		05C3CA6B8ADDFB4C52C87D0C /* Pods_AppCenterTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D39B0351FC98222A004C5E /* Pods_AppCenterTestTests.framework */; };
 		DBF3AF862C2C0B1A0276F688 /* Pods_AppCenterTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB6AFA91A647BF22B68D652 /* Pods_AppCenterTestUITests.framework */; };
 		F459133CDFD0F3131F4B4A5B /* Pods_AppCenterTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4608D70668DF7662BA11BA /* Pods_AppCenterTest.framework */; };
@@ -50,6 +51,7 @@
 		05B0D4F32117DE9F005C40AD /* AppCenterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCenterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B0D4F72117DE9F005C40AD /* AppCenterTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenterTestUITests.swift; sourceTree = "<group>"; };
 		05B0D4F92117DE9F005C40AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B0D50521182C91005C40AD /* BList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BList.plist; sourceTree = "<group>"; };
 		1FC7D01B6FCE771D56E3584F /* Pods-AppCenterTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppCenterTestTests/Pods-AppCenterTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		22D39B0351FC98222A004C5E /* Pods_AppCenterTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCenterTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4608D70668DF7662BA11BA /* Pods_AppCenterTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCenterTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				05B0D4DE2117DE9E005C40AD /* Assets.xcassets */,
 				05B0D4E02117DE9E005C40AD /* LaunchScreen.storyboard */,
 				05B0D4E32117DE9E005C40AD /* Info.plist */,
+				05B0D50521182C91005C40AD /* BList.plist */,
 			);
 			path = AppCenterTest;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				05B0D4E22117DE9E005C40AD /* LaunchScreen.storyboard in Resources */,
 				05B0D4DF2117DE9E005C40AD /* Assets.xcassets in Resources */,
 				05B0D4DD2117DE9D005C40AD /* Main.storyboard in Resources */,
+				05B0D50621182C91005C40AD /* BList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,13 +17,24 @@ class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        showAlertWithCompletion(title: "hihi", message: "ooo") {
-            
-        }
+        
+        getBList()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func getBList() {
+        if let path = Bundle.main.path(forResource: "BList", ofType: "plist"),
+            let bList = NSDictionary(contentsOfFile: path){
+            
+            let value = bList["BCode"]
+            print("theValueIS:\(String(describing: value))")
+            showAlertWithCompletion(title: "hihi", message: value! as! String) {
+                
+            }
+        }
+        
     }
     func showAlertWithCompletion(title: String, message: String, complention: @escaping () -> Void) {
         let alertController = UIAlertController(
